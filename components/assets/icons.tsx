@@ -8,9 +8,11 @@ import {
 
 import {
   Education,
+  Inegi,
   LeaningMan,
   PercentagesMan,
   Resume,
+  WhatsApp,
   Wizeline,
   Workout,
 } from "@/components/assets/svgComponents"
@@ -63,4 +65,6 @@ export const Icons = {
   resume: (props: LucideProps) => <Resume {...props} />,
   workout: (props: LucideProps) => <Workout {...props} />,
   wizeline: (props: LucideProps) => <Wizeline {...props} />,
+  inegi: (props: LucideProps) => <Inegi {...props} />,
+  whatsApp: (props: LucideProps) => <WhatsApp {...props} />,
 }

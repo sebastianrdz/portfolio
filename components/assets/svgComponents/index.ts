@@ -4,4 +4,6 @@ export {PercentagesMan} from './percentagesMan';
 export {Resume} from './resume';
 export {Workout} from './workout';
 export {Wizeline} from './wizeline';
+export {Inegi} from './inegi';
+export {WhatsApp} from './whatsApp';
 

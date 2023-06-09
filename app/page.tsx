@@ -3,16 +3,13 @@ export default function IndexPage() {
     <section className="container grid items-center gap-12 pb-8 pt-6 md:py-10">
       <div className="flex max-w-[980px] flex-col items-start gap-6">
         <h1 className="max-w-[700px] text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          Hey there! Sebastian Rodriguez here, coming at you with a quick
-          summary.
+          Full-Stack Software Developer, Bodybuilder, and Coffee Lover
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          I&apos;m a recent graduate in computer science, hailing from the
-          vibrant city of Monterey, Mexico. Coding is my jam—I thrive on the
-          thrill of solving problems and bringing ideas to life with lines of
-          code. But hey, life isn&apos;t just about coding!
+          Hello! I&apos;m Sebastian Roodriguez. Welcome to my portfolio. Here
+          you can get to know a little more about myself.
         </p>
-        <p className="max-w-[700px] text-lg text-muted-foreground">
+        {/* <p className="max-w-[700px] text-lg text-muted-foreground">
           When I&apos;m not diving into algorithms or debugging like a champ,
           you can catch me with a paintbrush in hand, unleashing my creative
           side on canvas. Oh, and let&apos;s not forget about hitting the gym—I
@@ -35,7 +32,7 @@ export default function IndexPage() {
           So, buckle up, because together, we&apos;re about to unleash some
           serious awesomeness in the world of technology. Let&apos;s make waves
           and leave a lasting impact. Ready? Let&apos;s go!
-        </p>
+        </p> */}
       </div>
     </section>
   )

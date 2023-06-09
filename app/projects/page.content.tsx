@@ -19,4 +19,22 @@ export const projectsSections = [
     link: "",
     tags: ["React", "AWS", "PostgersQL", "Express.JS"],
   },
+  {
+    title: "NLP Chatbot",
+    description: [
+      "Natural Language Processing chatbot can do accurate attribute extraction and intention classification. The chatbot delivers personalized responses and guides users through their queries seamlessly. An impressive feature is its ability to capture and process text fields to map locations on a map, providing tailored directions.",
+    ],
+    icon: <Icons.inegi className="h-10 w-10" />,
+    link: "https://github.com/sebastianrdz/mapa-interactivo",
+    tags: ["React", "Python", "FastAPI"],
+  },
+  {
+    title: "WhatsApp Clone",
+    description: [
+      "In my side project, I developed a WhatsApp clone using Flutter. Leveraging Flutter's cross-platform capabilities, I created a responsive mobile app with features similar to WhatsApp. Integrating Firebase for authentication and database functionalities ensured secure user access and efficient data storage. The project highlights my expertise in mobile app development and showcases my ability to utilize Flutter and Firebase for building robust applications.",
+    ],
+    icon: <Icons.whatsApp className="h-10 w-10" />,
+    link: "https://github.com/sebastianrdz/whatsapp_messager",
+    tags: ["Flutter", "Dart", "Firebase"],
+  },
 ]
