@@ -1,5 +1,6 @@
 import {
   LucideProps,
+  Menu,
   Moon,
   SunMedium,
   Twitter,
@@ -23,6 +24,7 @@ export const Icons = {
   sun: SunMedium,
   moon: Moon,
   twitter: Twitter,
+  menu: Menu,
   logo: (props: LucideProps) => (
     <svg
       viewBox="0 0 652 400"

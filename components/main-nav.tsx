@@ -9,6 +9,8 @@ import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/assets/icons"
 
+import { SheetDemo } from "./nav-sheet"
+
 interface MainNavProps {
   items?: NavItem[]
 }
@@ -17,12 +19,12 @@ export function MainNav({ items }: MainNavProps) {
   const pathname = usePathname()
 
   return (
-    <div className="flex gap-6 md:gap-10">
+    <div className="flex flex-col gap-6 sm:flex-row md:gap-10">
       <Link href="/" className="flex items-center gap-2">
         <Icons.logo className="h-10 w-10" />
       </Link>
       {items?.length ? (
-        <nav className="flex gap-6">
+        <nav className="flex flex-col gap-6 sm:flex-row">
           {items?.map(
             (item, index) =>
               item.href && (
