@@ -9,8 +9,6 @@ import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/assets/icons"
 
-import { SheetDemo } from "./nav-sheet"
-
 interface MainNavProps {
   items?: NavItem[]
 }
