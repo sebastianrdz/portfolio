@@ -1,12 +1,12 @@
-import AboutRowContent from "@/components/about-row-content"
+import AboutRowContent from "@/app/about/about-row-content"
 
-import { aboutSections } from "./helpers"
+import { aboutSections } from "./page.content"
 
 export default function ContactPage() {
   return (
-    <section className="container grid items-center gap-48 py-8 md:py-12">
-      {aboutSections.map((item) => {
-        return <AboutRowContent {...item} />
+    <section className="container grid items-center gap-12 py-8 md:py-12 lg:gap-48">
+      {aboutSections.map((item, index) => {
+        return <AboutRowContent key={index} {...item} />
       })}
     </section>
   )

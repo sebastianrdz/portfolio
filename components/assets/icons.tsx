@@ -6,6 +6,15 @@ import {
   type Icon as LucideIcon,
 } from "lucide-react"
 
+import {
+  Education,
+  LeaningMan,
+  PercentagesMan,
+  Resume,
+  Wizeline,
+  Workout,
+} from "@/components/assets/svgComponents"
+
 export type Icon = LucideIcon
 
 export const Icons = {
@@ -48,4 +57,10 @@ export const Icons = {
       />
     </svg>
   ),
+  education: (props: LucideProps) => <Education {...props} />,
+  leaningMan: (props: LucideProps) => <LeaningMan {...props} />,
+  percentagesMan: (props: LucideProps) => <PercentagesMan {...props} />,
+  resume: (props: LucideProps) => <Resume {...props} />,
+  workout: (props: LucideProps) => <Workout {...props} />,
+  wizeline: (props: LucideProps) => <Wizeline {...props} />,
 }

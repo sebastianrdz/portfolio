@@ -1,7 +1,5 @@
-import Link from "next/link"
-
-import { siteConfig } from "@/config/site"
-import { buttonVariants } from "@/components/ui/button"
+import { projectsSections } from "./page.content"
+import ProjectCard from "./project-card"
 
 export default function ContactPage() {
   return (
@@ -11,9 +9,13 @@ export default function ContactPage() {
           Projects
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Hey! Working on getting projects in here, not much to see for the
-          moment. :)
+          Here is some of the projects I believe truly helped me grow and learn.
         </p>
+      </div>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 lg:grid-cols-2">
+        {projectsSections.map((item, index) => {
+          return <ProjectCard key={index} {...item} />
+        })}
       </div>
     </section>
   )
