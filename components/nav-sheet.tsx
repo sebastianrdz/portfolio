@@ -13,7 +13,7 @@ export function NavSheet() {
           <Icons.menu />
         </Button>
       </SheetTrigger>
-      <SheetContent position="top">
+      <SheetContent position="top" size="content">
         <MainNav items={siteConfig.mainNav} />
       </SheetContent>
     </Sheet>
