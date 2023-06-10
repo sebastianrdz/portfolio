@@ -35,7 +35,7 @@ function ProjectCard({
         )
       })}
       {tags && (
-        <div className="grid w-fit grid-flow-col grid-rows-1 gap-2">
+        <div className="flex w-fit flex-wrap gap-2">
           {tags.map((item, index) => {
             return (
               <div

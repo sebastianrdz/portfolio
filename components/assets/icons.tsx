@@ -13,6 +13,7 @@ import {
   LeaningMan,
   PercentagesMan,
   Resume,
+  Umbrage,
   WhatsApp,
   Wizeline,
   Workout,
@@ -69,4 +70,5 @@ export const Icons = {
   wizeline: (props: LucideProps) => <Wizeline {...props} />,
   inegi: (props: LucideProps) => <Inegi {...props} />,
   whatsApp: (props: LucideProps) => <WhatsApp {...props} />,
+  umbrage: (props: LucideProps) => <Umbrage {...props} />,
 }

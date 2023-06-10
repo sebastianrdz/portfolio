@@ -24,11 +24,9 @@ export default function AboutRowContent({
   image,
   imagePosition,
 }: RowContentProps) {
-  const temp = image ? (
-    <div className="grid h-full items-center justify-center">{image}</div>
-  ) : (
-    <div className="grid animate-pulse items-center justify-center">
-      <Icons.logo className="h-10 w-10" />
+  const temp = (
+    <div className="hidden h-full items-center justify-center lg:grid">
+      {image ? image : <Icons.logo className="h-10 w-10" />}
     </div>
   )
 
