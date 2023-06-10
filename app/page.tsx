@@ -45,7 +45,7 @@ export default function IndexPage() {
             </div>
           </Link>
         </nav>
-        <div className="grid min-w-[400px] gap-8 rounded-md border p-4">
+        <div className="grid w-full max-w-[400px] gap-8 rounded-md border p-4">
           <h1 className="text-xl font-bold leading-tight tracking-tighter">
             Experience
           </h1>
