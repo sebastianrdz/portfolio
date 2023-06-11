@@ -14,8 +14,7 @@ export default function IndexPage() {
         <p className="max-w-[700px] text-lg text-muted-foreground">
           Hello! I&apos;m Sebastian Rodriguez. Welcome to my portfolio. Feel
           free to contact me if you have any questions. In the meantime you can
-          browse through the page and get to know me a little better. the page
-          and get to know me a little better.
+          browse through the page and get to know me a little better.
         </p>
         <nav className="flex items-center space-x-1">
           <Link
